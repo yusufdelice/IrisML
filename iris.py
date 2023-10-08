@@ -14,13 +14,11 @@ Bu uygulama sklearn kütüphanesinde native olarak bulunan, R.A. Fisher tarafın
 """)
 st.write("Sayfanın aşağısına inerseniz, verinin değerler için görselleştirilmiş bir halini bulabilirsiniz.")
 st.write("-Yusuf Talha DELİCE")
+# ekranda kütüphaneler yüzünden çıkabilecek uyarıları engelliyorum.
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # bir sidebar, yani yan pencere oluşturuyoruz, kullanıcı buradan özellikleri seçecek ve model hangi çiçeğe daha yakın olduğuna dair tahmin yürütecek.
 st.sidebar.header('Kullanıcı Girdisi')
-st.set_option('deprecation.showPyplotGlobalUse', False)
-# ekranda kütüphaneler yüzünden çıkabilecek uyarıları engelliyorum.
-showWarningOnDirectExecution = False
 
 # kullanıcıdan değerlerin alınacağı fonksiyon.
 def user_input_features():
@@ -66,7 +64,7 @@ st.subheader('Tahmin Olasılığı')
 st.write(prediction_proba)
 
 # eğitimde kullanılan verinin tamamını ve çiçeklerin verilen feature'lara göre bir grafiğini bastırıyorum.
-st.subheader("Eğitimde Kullaınlan Tüm Veri")
+st.subheader("Eğitimde Kullanılan Tüm Veri")
 #st.write(type(iris.data))
 X = pd.DataFrame(iris.data)
 y = pd.DataFrame(iris.target)
