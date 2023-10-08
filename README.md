@@ -9,4 +9,4 @@ Streamlit kütüphanesini kullanarak kullanıcıdan aldığım değerlerle eğit
 Ayrıca eğitim verisetinde bulunan değerlerin bir özeti olması için her çiçek türünün özelliklerinin dağılımını gösteren küçük bir grafik hazırladım.
 
 ## İnternete Yüklemek
-Ücretsiz bir seçeneği bulunan Render hizmeti, Github senkranizasyonu sayesinde projeleri direkt olarak kendi uzantısında bir siteye taşıyabiliyor. Bedava kullanımın kısıtlamaları yüzünden sitede yavaş yüklenme sıkıntıları olabilse de kod başarıyla çalışmakta.
+Ücretsiz bir seçeneği bulunan Render hizmeti, Github senkronizasyonu sayesinde projeleri direkt olarak kendi uzantısında bir siteye taşıyabiliyor. Bedava kullanımın kısıtlamaları yüzünden sitede yavaş yüklenme sıkıntıları olabilse de kod başarıyla çalışmakta.
