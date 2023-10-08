@@ -10,7 +10,7 @@ import seaborn as sns
 st.write("""
 # Çiçek Türü Tahmin Etme Uygulaması
 
-Bu uygulama sklearn kütüphanesinde native olarak bulunan, R.A. Fisher tarafından 1988 yılında oluşturulmuş 'iris' veritabanını kullanır. Ve verilen değerlere göre verilen iris familyasına ait üç ayrı çiçek çeşiti arasından hangi türe daha yakın olduğuna dair bir tahmin oluşturur.
+Bu uygulama sklearn kütüphanesinde native olarak bulunan, R.A. Fisher tarafından 1988 yılında oluşturulmuş 'iris' verisetini kullanır. Kullanıcıdan alınan değerlerin, mevzu bahis iris familyasına ait üç ayrı çiçek çeşidi arasından hangi türe daha yakın olduğuna dair bir tahmin oluşturur.
 """)
 st.write("Sayfanın aşağısına inerseniz, verinin değerler için görselleştirilmiş bir halini bulabilirsiniz.")
 st.write("-Yusuf Talha DELİCE")
